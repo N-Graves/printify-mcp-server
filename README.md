@@ -9,7 +9,7 @@ MIT licensed.
 ## Install
 
 ```bash
-npm install -g @nasdigital/printify-mcp
+npm install -g @nasdigitaluk/printify-mcp
 ```
 
 Get a token from **Printify → My Profile → Connections → Personal Access Tokens**.
@@ -101,7 +101,7 @@ PRINTIFY_API_KEY=x npm run smoke           # real MCP over stdio
 
 ## Built on
 
-[`@nasdigital/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
+[`@nasdigitaluk/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
 
 ## Licence
 

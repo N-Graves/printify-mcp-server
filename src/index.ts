@@ -2,7 +2,7 @@
 /**
  * printify-mcp-server — a Model Context Protocol server for the Printify API.
  *
- *   PRINTIFY_API_KEY=... npx @nasdigital/printify-mcp
+ *   PRINTIFY_API_KEY=... npx @nasdigitaluk/printify-mcp
  *
  * Configuration:
  *   PRINTIFY_API_KEY  required. Printify → My Profile → Connections → Personal
@@ -25,7 +25,7 @@ import {
   authorizerFromEnv,
   requireEnv,
   runServer,
-} from "@nasdigital/mcp-server-core";
+} from "@nasdigitaluk/mcp-server-core";
 import { buildTools } from "./tools.js";
 import { COVERED } from "./dispatch.js";
 import { OPERATIONS } from "./generated/operations.js";

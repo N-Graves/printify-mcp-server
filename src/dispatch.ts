@@ -9,7 +9,7 @@
  * and that always wins.
  */
 
-import { Dispatcher, ToolError, type HttpClient } from "@nasdigital/mcp-server-core";
+import { Dispatcher, ToolError, type HttpClient } from "@nasdigitaluk/mcp-server-core";
 import { OPERATIONS, type CataloguedOperation } from "./generated/operations.js";
 
 export const COVERED = OPERATIONS.filter((o) => o.status === "covered");
