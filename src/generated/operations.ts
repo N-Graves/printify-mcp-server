@@ -12,7 +12,7 @@
  * irreversible OR chargeable. Placing an order and sending it to production
  * both cost real money and cannot be undone, so they sit with the deletes.
  */
-import type { Operation } from "@nasdigital/mcp-server-core";
+import type { Operation } from "@nasdigitaluk/mcp-server-core";
 
 export interface CataloguedOperation extends Operation {
   tags: string[];
